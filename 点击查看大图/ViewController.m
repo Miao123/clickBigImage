@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "ClickBigImageView.h"
 @interface ViewController ()
+
+@property (nonatomic, strong) ClickBigImageView *headImage;
 
 @end
 
@@ -17,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"单张图片显示";
+    
+    
+    ClickBigImageView *headImage = [ClickBigImageView initWithFrame:CGRectMake(100, 100, 100, 100) imageUrl:@"" imageStr:@"111"];
+    [self.view addSubview:headImage];
+    
 }
 
 

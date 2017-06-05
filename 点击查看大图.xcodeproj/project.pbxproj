@@ -15,6 +15,7 @@
 		DDC885981EE5553900FA5BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC885961EE5553900FA5BD3 /* LaunchScreen.storyboard */; };
 		DDC885A31EE5553900FA5BD3 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC885A21EE5553900FA5BD3 /* ______Tests.m */; };
 		DDC885AE1EE5553900FA5BD3 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC885AD1EE5553900FA5BD3 /* ______UITests.m */; };
+		DDC885BD1EE555C800FA5BD3 /* ClickBigImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC885BC1EE555C800FA5BD3 /* ClickBigImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDC885A91EE5553900FA5BD3 /* 点击查看大图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "点击查看大图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC885AD1EE5553900FA5BD3 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		DDC885AF1EE5553900FA5BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC885BB1EE555C800FA5BD3 /* ClickBigImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickBigImageView.h; sourceTree = "<group>"; };
+		DDC885BC1EE555C800FA5BD3 /* ClickBigImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickBigImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DDC8858C1EE5553900FA5BD3 /* AppDelegate.m */,
 				DDC8858E1EE5553900FA5BD3 /* ViewController.h */,
 				DDC8858F1EE5553900FA5BD3 /* ViewController.m */,
+				DDC885BB1EE555C800FA5BD3 /* ClickBigImageView.h */,
+				DDC885BC1EE555C800FA5BD3 /* ClickBigImageView.m */,
 				DDC885911EE5553900FA5BD3 /* Main.storyboard */,
 				DDC885941EE5553900FA5BD3 /* Assets.xcassets */,
 				DDC885961EE5553900FA5BD3 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					DDC885841EE5553900FA5BD3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7UQ7WHB5T;
 						ProvisioningStyle = Automatic;
 					};
 					DDC8859D1EE5553900FA5BD3 = {
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC885BD1EE555C800FA5BD3 /* ClickBigImageView.m in Sources */,
 				DDC885901EE5553900FA5BD3 /* ViewController.m in Sources */,
 				DDC8858D1EE5553900FA5BD3 /* AppDelegate.m in Sources */,
 				DDC8858A1EE5553900FA5BD3 /* main.m in Sources */,
@@ -424,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "点击查看大图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "点击查看大图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
